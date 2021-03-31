@@ -169,7 +169,7 @@ async function updateDB(){
     //const maxPageNumber = parseInt(match[2]);
     //console.log(forumPrefix,maxPageNumber);
     const forumPrefix = 'forum.php?mod=forumdisplay&fid=38&page='
-    const maxPageNumber = 281
+    const maxPageNumber = 270
 
     console.log('Checking new posts...');
     const query_text = `INSERT INTO posts (url,title,postdate,downloaded)
